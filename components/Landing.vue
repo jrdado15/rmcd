@@ -19,7 +19,7 @@
           <el-button type="primary" size="large" class="btn-primary-hero max-w-[130px]">
             View projects
           </el-button>
-          <el-button type="primary" plain size="large" class="btn-plain-hero">
+          <el-button type="primary" plain size="large" class="btn-plain-hero max-w-[130px]">
             Contact us
           </el-button>
         </div>
