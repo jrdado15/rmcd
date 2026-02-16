@@ -1,0 +1,32 @@
+.test {
+  border: 1px solid red;
+}
+
+
+.page {
+  padding: 100px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  @media (max-width: 1024px) {
+    padding: 80px 60px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 80px 24px 40px;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  @media (max-width: 480px) {
+    padding: 70px 16px 32px;
+  }
+}
+
+// Text
+.text-secondary {
+  color: #5e6b7a;
+}
+

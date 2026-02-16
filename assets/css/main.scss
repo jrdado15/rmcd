@@ -1,0 +1,10 @@
+
+@use 'fonts';
+@use 'globals';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f5;
+  color: var(--text-color);
+}
